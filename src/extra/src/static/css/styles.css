@@ -1,0 +1,372 @@
+body {
+    background-color: #0f1611;
+    color: #edeeed;
+    font-family:Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    text-align: center;
+    letter-spacing: 0.5px;
+/*     overflow-x: hidden;
+ */}
+
+body *.fade-in {
+    opacity: 1 !important;
+    transition: opacity 1s ease-in;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    height: 120px;
+    width: 100%;
+}
+
+p {
+    line-height: 32px;
+    font-size: 20px;
+    max-width: 400;
+}
+
+h1 {
+    color: #a0ccab;
+    font-size: 60px;
+    line-height: 76px;
+}
+
+
+header {
+    background: #59d377;
+    color: #070809;
+    border-bottom: 1px solid #317e44;
+   /*  box-sizing: border-box; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    padding: 8px 98px;
+    height: 100px;
+    width: fill;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: #317e44;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+a:visited {
+    color: #317e44;
+}
+
+/* #content_border {
+     margin-left: 10%;
+    margin-right: 10%; 
+} */
+
+#header_esquerda {
+    display: flex;
+    align-items: center; 
+}
+
+#logo {
+    max-width: 40px;
+    height: auto;
+}
+
+h2.nome_site {
+    color: #317e44 !important;
+}
+
+#header_direita {
+    font-weight: 400px;
+    font-size: 16px;
+    text-align: center;
+    gap: 80px;
+}
+
+.titulo {
+    flex: none;
+    order: 1;
+    align-self: stretch; 
+    flex-grow: 0;
+    padding: 120px;
+}
+
+#titulo_inicial {
+    flex: none;
+    order: 1;
+    align-self: stretch; 
+    flex-grow: 0;
+    padding-top: 40px;
+}
+
+/* #nome_inicial {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#texto_inicial {
+    margin-left: 20%;
+    margin-right: 20%;
+} */
+
+#foto_index {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+
+#contato {
+    margin-top: 30px;
+/*     text-align: center; */
+  }
+  
+    .contato-item {
+        display: inline-block;
+        margin: 0 20px 30px 20px;
+        transition: transform 0.3s ease-in-out;
+        color: white;
+    }
+
+    .contato-item p {
+        color: white;
+    }
+
+    .contato-item:hover {
+        transform: scale(1.1);
+    }
+
+    .contato-item:hover p {
+        color: aquamarine;;
+    }
+
+    .contato-imagem {
+        max-width: 75px;
+        height: auto;  
+    }
+
+.bloco {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 64px;
+    max-width: 1440px;
+    height: fit-content;
+    background-color: #1a2a20;
+    padding: 20px 10px;
+    border-radius: 30px;
+    margin-bottom: 60px;
+    justify-content: space-between;
+}
+
+.bloco_imagem {
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.bloco_p {
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 598px;
+    height: auto;
+}
+
+.bloco_hobbies {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px;
+    gap: 64px;
+    max-width: 1440px;
+    height: auto;
+    justify-content: space-between;
+}
+
+.coluna_hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+    max-width: 598px;
+    width: 100%;
+    height: auto;
+}
+
+.subbloco_hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    background-color: #17100f;
+    padding: 20px 10px;
+    border-radius: 30px;
+}
+
+.bloco_img_hobbies {
+    max-width: 598px;
+    height: auto;
+    width: 90%;
+    border-radius: 24px;
+}
+
+.bloco_inicial {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 40px auto;
+  max-width: 900px;
+  border-radius: 24px;
+  padding: 32px 24px;
+  box-sizing: border-box;
+}
+
+.bloco_foto img,
+#foto_index {
+  width: 300px;
+  border-radius: 16px;
+  display: block;
+  margin: 0;
+}
+
+.bloco_texto {
+  flex: 1;
+  text-align: left;
+}
+
+#nome_inicial {
+  font-size: 42px;
+  line-height: 46px;
+  margin: 0 0 16px 0;
+  text-align: left;
+}
+
+#texto_inicial {
+  margin: 0;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+#tecnologias {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.tecnologia-lista {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 32px;
+    margin-left: 16px; 
+}
+
+.titulo-secundario {
+    color: #a0ccab;
+    font-size: 38px;
+    line-height: 54px;
+}
+
+.tecnologia-itens {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 20px 30px 20px;
+    gap: 16px;
+    margin-top: 20px;
+
+}
+
+.tecnologia-item-imagem {
+    max-width: 75px;
+    height: auto;  
+}
+
+@media only screen and (max-width: 600px) {
+    #foto_index {
+        width: 250px;
+    }
+    h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .titulo {
+        padding: 40px;
+    }
+    .bloco {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        padding-bottom: 30px;
+    }
+    .bloco_texto {
+        max-width: 400px;
+        width: fit-content;
+        height: max-content;
+    }
+    .bloco_p {
+        max-width: 400px;
+        width: fit-content;
+    }
+    .bloco_hobbies {
+        flex-direction: column;
+        align-items: center;
+    }
+    .subbloco_hobbies {
+        align-items: center;
+    }
+    .coluna_hobbies {
+        max-width: 400px;
+    }
+    .bloco_img_hobbies {
+        max-width: 400px;
+        width: 90%;
+    }
+    .bloco_imagem {
+        width: 90%;
+    }
+    .content {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .contato-item {
+        display: block;
+        margin: 10px auto 20px auto
+    }
+}
